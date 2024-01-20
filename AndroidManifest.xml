@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.tired">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat.NoActionBar">
+        <activity android:name=".cse2201setb"></activity>
+        <activity android:name=".cse2207setb" />
+        <activity android:name=".math2203setb" />
+        <activity android:name=".cse2213setb" />
+        <activity android:name=".cse2209_setb" />
+        <activity android:name=".math2101seta" />
+        <activity android:name=".math2101" />
+        <activity android:name=".hum2109seta" />
+        <activity android:name=".hum2109" />
+        <activity android:name=".eee2147seta" />
+        <activity android:name=".eee2147" />
+        <activity android:name=".cse2106seta" />
+        <activity android:name=".cse2106" />
+        <activity android:name=".cse2103seta" />
+        <activity android:name=".cse2103" />
+        <activity android:name=".cse1205seta" />
+        <activity android:name=".cse1205" />
+        <activity android:name=".eee1241seta" />
+        <activity android:name=".eee1241" />
+        <activity android:name=".math1219seta" />
+        <activity android:name=".math1219" />
+        <activity android:name=".cse1203seta" />
+        <activity android:name=".cse1203" />
+        <activity android:name=".me1214seta" />
+        <activity android:name=".me1214" />
+        <activity android:name=".cse1101seta" />
+        <activity android:name=".cse1101" />
+        <activity android:name=".chem1115seta" />
+        <activity android:name=".chem1115" />
+        <activity android:name=".phy1115seta" />
+        <activity android:name=".phy1115" />
+        <activity android:name=".math1115seta" />
+        <activity android:name=".math1115" />
+        <activity android:name=".hum1107seta" />
+        <activity android:name=".hum1107" />
+        <activity android:name=".cse2207_seta" />
+        <activity android:name=".cse2213_seta" />
+        <activity android:name=".math2203_seta" />
+        <activity android:name=".cse2209_seta" />
+        <activity android:name=".activity_semester22_cse2209" />
+        <activity android:name=".cse2201SetA" />
+        <activity android:name=".Semester22_cse2207" />
+        <activity android:name=".Semester22_cse2213" />
+        <activity android:name=".Semester22_math2203" />
+        <activity android:name=".Semester22_cse2209" />
+        <activity android:name=".Semester22_cse2201" />
+        <activity android:name=".ActivitySemester11_cse1101" />
+        <activity android:name=".Semester42" />
+        <activity android:name=".Semester41" />
+        <activity android:name=".Semester32" />
+        <activity android:name=".Semester31" />
+        <activity android:name=".Semester22" />
+        <activity android:name=".Semester21" />
+        <activity android:name=".Semester12" />
+        <activity android:name=".Semester11" />
+        <activity android:name=".Login" />
+        <activity android:name=".Register" />
+        <activity android:name=".MainActivity2" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>
