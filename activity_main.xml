@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/purple_200"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <View
+            android:id="@+id/firstLine"
+            android:layout_width="20dp"
+            android:layout_height="50dp"
+            android:layout_centerHorizontal="true"
+            android:background="@color/black" />
+
+        <View
+            android:id="@+id/secondLine"
+            android:layout_width="20dp"
+            android:layout_height="100dp"
+            android:layout_marginLeft="8dp"
+            android:layout_toRightOf="@+id/firstLine"
+            android:background="#A82424" />
+
+        <View
+            android:id="@+id/thirdLine"
+            android:layout_width="20dp"
+            android:layout_height="250dp"
+            android:layout_marginLeft="8dp"
+            android:layout_toRightOf="@+id/secondLine"
+            android:background="#A38891" />
+
+        <View
+            android:id="@+id/fourthLine"
+            android:layout_width="20dp"
+            android:layout_height="150dp"
+            android:layout_marginLeft="8dp"
+            android:layout_toRightOf="@+id/thirdLine"
+            android:background="@color/black" />
+
+        <View
+            android:id="@+id/fifthLine"
+            android:layout_width="20dp"
+            android:layout_height="200dp"
+            android:layout_marginLeft="8dp"
+            android:layout_toRightOf="@+id/fourthLine"
+            android:background="#D38D8D" />
+
+        <View
+            android:id="@+id/sixthLine"
+            android:layout_width="20dp"
+            android:layout_height="150dp"
+            android:layout_marginLeft="8dp"
+            android:layout_toRightOf="@+id/fifthLine"
+            android:background="@color/white" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/rococotxt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:fontFamily="@font/bangers"
+            android:text="ROCOCO"
+            android:textColor="#39373C"
+            android:textSize="130sp" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom">
+
+            <TextView
+                android:id="@+id/tagline"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="50dp"
+                android:fontFamily="@font/bad_script"
+                android:text="Porikkha diba?"
+                android:textColor="#A359AF"
+                android:textSize="24sp" />
+        </RelativeLayout>
+    </LinearLayout>
+
+</LinearLayout>
